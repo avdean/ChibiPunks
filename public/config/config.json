@@ -1,0 +1,19 @@
+{
+  "CONTRACT_ADDRESS": "0xe088cDCc176C3907fa8c02a789498E826dC46a14",
+  "SCAN_LINK": "https://moonbase.moonscan.io/address/0xe088cDCc176C3907fa8c02a789498E826dC46a14",
+  "NETWORK": {
+    "NAME": "Ethereum",
+    "SYMBOL": "ETH",
+    "ID": 1284
+  },
+  "NFT_NAME": "ChibiPunk",
+  "SYMBOL": "CHBCYP",
+  "MAX_SUPPLY": 6666,
+  "DISPLAY_COST": 0.01,
+  "GAS_LIMIT": 1000000,
+  "MAX_PER_TX": 10,
+  "MARKETPLACE": "Opensea",
+  "MARKETPLACE_LINK": "ToAdd",
+  "Instagram": "ToAdd",
+  "SHOW_BACKGROUND": false
+}
