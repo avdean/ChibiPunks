@@ -162,13 +162,14 @@ export const ResponsiveWrapper = styled.div`
   justify-content: stretched;
   align-items: center;
   margin: auto;
-  width: 70%;
+  width: 50vw;
   border-radius: 40px;
   box-shadow:
   0 0 5px #000;            /* outer Black */
   background: #2A2A2A;
     @media (min-width: 767px) {
     flex-direction: row;
+    width: 70vw;
   }
 `;
 
