@@ -433,7 +433,7 @@ function App() {
       <s.Container
         flex={1}
         // ai={"center"}
-        style={{background: "linear-gradient(to bottom right, #ff0084, #33001b)" }}
+        style={{background: "linear-gradient(45deg, rgba(17,17,17,1) 0%, rgba(135,77,184,1) 25%, rgba(184,83,204,1) 40%, rgba(234,87,146,1) 64%, rgba(124,213,231,1) 100%)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
         <MenuBox>
