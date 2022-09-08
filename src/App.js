@@ -675,8 +675,9 @@ function App() {
           <s.TextTitle>WORDS FROM THE CREATOR</s.TextTitle>
             <s.SpacerLarge/>
             <s.TextP>
-            ChibiPunks are a collection of adorable PFP punks, and a badge to support that which is different or misunderstood. Since I'm just one guy, I can't promise expansive roadmaps or exciting new features, but what would be cool would be to donate a large portion of the proceeds to a charity dedicated to improving mental health, and in the future extra seasons to release for other good causes.
+            ChibiPunks are a collection of adorable PFP punks, and a badge of support for those that are different or misunderstood. 
             <br></br><br></br>
+            Since I'm just one guy, I can't promise expansive roadmaps or exciting new features, but what would be cool, when fully minted out, would be to donate a large portion of the proceeds to a charity dedicated to improving mental health, and in the future extra seasons to release for other good causes.
              
             </s.TextP>
           </CreatorContainer>
