@@ -192,7 +192,7 @@ export const LoreContainer = styled.div`
     flex-direction: row;
   }
 `;
-export const LoreContainer = styled.div`
+export const CreatorContainer = styled.div`
   display: flex-container;
   flex: 1;
   flex-direction: row;
