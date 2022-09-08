@@ -1,9 +1,9 @@
 :root {
-  --primary: blue;
+  --primary: #7cd5e7;
   --primary-text: white;
   --secondary: white;
-  --secondary-text: #white;
-  --tertiery: #ff1dec;
-  --accent: Red;
+  --secondary-text: white;
+  --tertiery: #ea5792;
+  --accent: #874db8;
   --accent-text: white;
 }
