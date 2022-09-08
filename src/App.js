@@ -192,6 +192,26 @@ export const LoreContainer = styled.div`
     flex-direction: row;
   }
 `;
+export const LoreContainer = styled.div`
+  display: flex-container;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  margin-top:10vh;
+  width: 70%;
+  border-radius: 40px;
+  background: #2A2A2A;
+  box-shadow:
+  0 0 5px #000,            /* outer Black */
+  -10px 0 80px #0ff,        /* outer left cyan */
+  10px 0 80px #f0f;         /* outer right magenta */
+    @media (min-width: 767px) {
+    flex-direction: row;
+  }
+`;
+
 
 export const ResponsiveWrapperHeader = styled.div`
   display: flex;
@@ -453,10 +473,13 @@ function App() {
             <s.StyledLink href="#story">
               Story
             </s.StyledLink >
-              <s.StyledLink href="https://vagranttea.gitbook.io/moonbeam-unicorns/" target="_blank">
+            <s.StyledLink href="#about">
+              About
+            </s.StyledLink >
+              <s.StyledLink href="#" target="_blank">
                Documentation
               </s.StyledLink>
-              <s.StyledLink href="https://vagranttea.gitbook.io/moonbeam-unicorns/" target="_blank">
+              <s.StyledLink href={CONFIG.Instagram} target="_blank">
                Instagram
               </s.StyledLink>
 
@@ -642,17 +665,25 @@ function App() {
           <s.TextTitle>STORY</s.TextTitle>
             <s.SpacerLarge/>
             <s.TextP>
-            Once upon a time, on the magical plains of Moonbeam roamed herds of unicorns (and horses with lofty aspirations). Legend even speaks of unicorns with wings, manes of fire and rainbow or even unicorns made of gold, steel and ice!
+          It began with four unlikely friends, at the turn of the second millennium, outcast for not fitting the roles society cast them. They would get up to their own version of mischief, loitering outside their local record store, etc. But over time their group grew, as they welcomed more and more of the outcast and different. 
             <br></br><br></br>
-            Each with their own temperaments, colours and mane styles, now's your chance to secure one of the 8000 unicorns residing on Moonbeam.
-            <br></br><br></br>
-            With the art style inspired by the card game Unstable Unicorns, if you like the art, definitely check out the game and their other games. For the record, Moonbeam Unicorns isn't affiliated with Unstable Unicorns in any way, but as a huge fan of the games this has to be said.
+          One day an epiphany was revealed, society and its opinions didn’t matter. They decided to be themselves, band together and right the world themselves, so others wouldn’t have to suffer the same cruel fates and persecutions.
             </s.TextP>
           </LoreContainer>
 
+        <CreatorContainer id="about">
+          <s.TextTitle>WORDS FROM THE CREATOR</s.TextTitle>
+            <s.SpacerLarge/>
+            <s.TextP>
+            ChibiPunks are a collection of adorable PFP punks, and a badge to support that which is different or misunderstood. Since I'm just one guy, I can't promise expansive roadmaps or exciting new features, but what would be cool would be to donate a large portion of the proceeds to a charity dedicated to improving mental health, and in the future extra seasons to release for other good causes.
+            <br></br><br></br>
+             
+            </s.TextP>
+          </CreatorContainer>
+
             <s.SecContainer id="">
               <s.socialDiv>
-                <a href={CONFIG.Discord} target={"_blank"}>
+                <a href={CONFIG.Instagram} target={"_blank"}>
                 <s.Icons src="/config/images/instagram.svg" alt="Instagram" />
                 </a>
               </s.socialDiv>
