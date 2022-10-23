@@ -67,15 +67,10 @@ export const connect = () => {
             abi,
             CONFIG.CONTRACT_ADDRESS
           );
-            const FZTOKEN = new Web3EthContract(
-              abi,
-              CONFIG.TOKEN
-            );
           dispatch(
             connectSuccess({
               account: accounts[0],
               smartContract: SmartContractObj,
-              smartToken: FZTOKEN ,
               web3: web3,
             })
           );
