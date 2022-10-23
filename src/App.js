@@ -358,15 +358,7 @@ function App() {
   });
 
   const claimNFTs = () => {
-    if (data.totalSupply < 2000) {
-        var cost = data.cost / 3000;
-    }
-    else if (data.totalSupply > 7000) {
-        var cost = data.cost + 5;
-    }
-    else {
-      var cost = data.cost;
-    }
+    var cost = data.cost;
     let price = String(cost);
     let totalGasLimit = String(gasLimit);
     console.log("Cost: ", price);
