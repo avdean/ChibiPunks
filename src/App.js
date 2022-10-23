@@ -360,7 +360,6 @@ function App() {
   const claimNFTs = () => {
     var cost = data.cost;
     let price = String(cost);
-    let totalGasLimit = String(gasLimit);
     console.log("Cost: ", price);
     setFeedback(`Minting your ${CONFIG.NFT_NAME}...`);
     setClaimingNft(true);
