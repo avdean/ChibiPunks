@@ -368,10 +368,8 @@ function App() {
       var cost = data.cost;
     }
     let price = String(cost);
-    let gasLimit = CONFIG.GAS_LIMIT;
     let totalGasLimit = String(gasLimit);
     console.log("Cost: ", price);
-    console.log("Gas limit: ", totalGasLimit);
     setFeedback(`Minting your ${CONFIG.NFT_NAME}...`);
     setClaimingNft(true);
     setbrd("2px solid yellow");
@@ -380,7 +378,6 @@ function App() {
     blockchain.smartContract.methods
       .mint(tokens)
       .send({
-        gasLimit: String(totalGasLimit),
         to: CONFIG.CONTRACT_ADDRESS,
         from: blockchain.account,
         value: price,

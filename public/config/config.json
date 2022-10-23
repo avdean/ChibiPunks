@@ -1,17 +1,16 @@
 {
-  "CONTRACT_ADDRESS": "ToAdd",
-  "SCAN_LINK": "https://moonbase.moonscan.io/address/0xe088cDCc176C3907fa8c02a789498E826dC46a14",
+  "CONTRACT_ADDRESS": "0xb75da815618431bcc524a944c101759624a773a0",
+  "SCAN_LINK": "https://goerli.etherscan.io/address/0xb75da815618431bcc524a944c101759624a773a0",
   "NETWORK": {
-    "NAME": "Ethereum",
+    "NAME": "GEthereum",
     "SYMBOL": "ETH",
-    "ID": 1
+    "ID": 5
   },
   "NFT_NAME": "ChibiPunk",
-  "SYMBOL": "CHBCYP",
-  "MAX_SUPPLY": 6666,
-  "DISPLAY_COST": 0.02,
-  "GAS_LIMIT": 1000000,
-  "MAX_PER_TX": 10,
+  "SYMBOL": "CBPKS",
+  "MAX_SUPPLY": 9999,
+  "DISPLAY_COST": 0.01,
+  "MAX_PER_TX": 15,
   "MARKETPLACE": "Opensea",
   "MARKETPLACE_LINK": "ToAdd",
   "Instagram": "ToAdd",
