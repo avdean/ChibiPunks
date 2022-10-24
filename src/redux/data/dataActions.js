@@ -31,18 +31,13 @@ export const fetchData = () => {
         .call();
       let cost = await store
         .getState()
-        .blockchain.smartContract.methods.PUBLIC_SALE_PRICE()
-        .call();
-        let WLcost = await store
-        .getState()
-        .blockchain.smartContract.methods.WHITELIST_SALE_PRICE()
+        .blockchain.smartContract.methods.PUBLIC_SalePrice()
         .call();
 
       dispatch(
         fetchDataSuccess({
           totalSupply,
-          cost,
-          WLcost,
+          cost
         })
       );
     } catch (err) {

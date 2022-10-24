@@ -233,22 +233,22 @@ export const ResponsiveWrapperHeader = styled.div`
 export const StyledImg = styled.img`
   width: 30vw;
   border-radius: 16px;
-  @media (min-width: 900px) {
-    width: 450px;
+  @media (min-width: 600px) {
+    width: 100%;
   }
-  @media (min-width: 1000px) {
-    width: 450px;
+  @media (min-width: 700px) {
+    width: 50%;
   }
   transition: width 0.5s;
-  @media (max-width: 1300px) {
-    width: 200px;
+  @media (min-width: 1300px) {
+    width: 60%;
   }
 `;
 export const TopImage = styled.img`
   display:flex;
   justify-content:center;
-  padding-left:20%;
-  width:80vw;
+  padding-left:5vw;
+  width:95vw;
 `;
 
 export const Styledroad = styled.img`
@@ -354,6 +354,7 @@ function App() {
     MARKETPLACE: "",
     MARKETPLACE_LINK: "",
     INSTAGRAM: "",
+    GITBOOK:"",
     SHOW_BACKGROUND: false,
   });
 
@@ -464,7 +465,7 @@ function App() {
             <s.StyledLink href="#about">
               About
             </s.StyledLink >
-              <s.StyledLink href="#" target="_blank">
+              <s.StyledLink href={CONFIG.Gitbook} target="_blank">
                Documentation
               </s.StyledLink>
               <s.StyledLink href={CONFIG.Instagram} target="_blank">
@@ -660,14 +661,14 @@ function App() {
           </LoreContainer>
 
         <CreatorContainer id="about">
-          <s.TextTitle>WORDS FROM THE CREATOR</s.TextTitle>
+          <s.TextTitle>WORDS FROM THE CREATORS</s.TextTitle>
             <s.SpacerLarge/>
             <s.TextP>
-            ChibiPunks are a collection of adorable PFP punks, and a badge of support for those that are different or misunderstood. 
+            ChibiPunks is a collection of adorable PFP punks, and a badge of support for those both different or misunderstood. The majority of the assets, development and smart contract was built by VagrantTea, with gracious contributions from the ever talented Frogwell.
             <br></br><br></br>
-            Since I'm just one guy, I can't promise expansive roadmaps or exciting new features, but what would be cool, when fully minted out, would be to donate a large portion of the proceeds to a charity dedicated to improving mental health, and in the future extra seasons to release for other good causes.
-             
+            The smart contract features both antibot minting and is ERC721A, making for cheaper gas fees! You can find out all of the details by checking out ChibPunks GitBook docs.             
             </s.TextP>
+            <StyledButton href={CONFIG.Gitbook} target={"_blank"}>Documentation</StyledButton>
           </CreatorContainer>
 
             <s.SecContainer id="">
