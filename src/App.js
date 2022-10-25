@@ -667,8 +667,9 @@ function App() {
             ChibiPunks is a collection of adorable PFP punks, and a badge of support for those both different or misunderstood. The majority of the assets, development and smart contract was built by VagrantTea, with gracious contributions from the ever talented Frogwell.
             <br></br><br></br>
             The smart contract features both antibot minting and is ERC721A, making for cheaper gas fees! You can find out all of the details by checking out ChibPunks GitBook docs.             
-            </s.TextP>
+            <br></br><br></br>
             <StyledButton href={CONFIG.Gitbook} target={"_blank"}>Documentation</StyledButton>
+            </s.TextP>
           </CreatorContainer>
 
             <s.SecContainer id="">
