@@ -172,10 +172,10 @@ export const StyledLink = styled.a`
   margin-right: 5rem;
   cursor: pointer;
   :hover {
-    color: #FF6DDA;
+    transition: transform 0.5s;
+    color: var(--primary-text);
     text-decoration: none;
     transform: scale(1.5);
-    transition: transform 0.5s;
   }
   @media (max-width: 565px) {
     margin-right: 0.75rem;
