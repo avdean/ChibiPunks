@@ -131,6 +131,7 @@ export const StyledRoundButton = styled.button`
 export const LogoDiv = styled.div`
 padding:5px;
 margin-left:5px;
+margin-right:50px;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -138,6 +139,7 @@ align-content: center;
 gap: 10%;
 @media (max-width: 767px) {
   padding-bottom:2%;
+  margin-right:0px;
 }
 `;
 
