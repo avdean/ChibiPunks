@@ -1,19 +1,19 @@
 {
-  "CONTRACT_ADDRESS": "0xb75da815618431bcc524a944c101759624a773a0",
-  "SCAN_LINK": "https://goerli.etherscan.io/address/0xb75da815618431bcc524a944c101759624a773a0",
+  "CONTRACT_ADDRESS": "0xB75DA815618431bcc524a944c101759624A773a0",
+  "SCAN_LINK": "https://etherscan.io/token/0xb75da815618431bcc524a944c101759624a773a0",
   "NETWORK": {
-    "NAME": "GEthereum",
+    "NAME": "Ethereum",
     "SYMBOL": "ETH",
-    "ID": 5
+    "ID": 1
   },
   "NFT_NAME": "ChibiPunk",
   "SYMBOL": "CBPKS",
   "MAX_SUPPLY": 9999,
-  "DISPLAY_COST": 0.01,
+  "DISPLAY_COST": 0.005,
   "MAX_PER_TX": 15,
   "MARKETPLACE": "Opensea",
   "MARKETPLACE_LINK": "ToAdd",
-  "Instagram": "ToAdd",
+  "Instagram": "chibi.punks",
   "Gitbook":"ToAdd",
   "SHOW_BACKGROUND": false
 }

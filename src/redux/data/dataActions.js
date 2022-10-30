@@ -31,7 +31,7 @@ export const fetchData = () => {
         .call();
       let cost = await store
         .getState()
-        .blockchain.smartContract.methods.PUBLIC_SalePrice()
+        .blockchain.smartContract.methods.SalePrice()
         .call();
 
       dispatch(
