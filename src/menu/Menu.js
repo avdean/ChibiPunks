@@ -11,7 +11,7 @@ export default props => {
       <a className="menu-item" target="_blank" href="https://vagranttea.gitbook.io/ChibiPunks/">
         Documentation
       </a>
-      <a className="menu-item" target="_blank" href="#">
+      <a className="menu-item" target="_blank" href="https://instagram.com/Chibi.punks">
         Instagram
       </a>
     </Menu>
