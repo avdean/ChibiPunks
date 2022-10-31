@@ -284,6 +284,56 @@ export const StyledLink = styled.a`
   text-decoration: none;
 `;
 
+export const CreatorsCont = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+`;
+
+export const CreatorsInd = styled.div`
+  display: flex;
+  padding: 1rem;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  @media(min-width: 40rem) {
+    width: 50%;
+  }
+  @media(min-width: 56rem) {
+    width: 33.3333%;
+  }
+`;
+
+
+export const CreatorsIMG = styled.img`
+  border-radius:100%;
+  width:150px;
+  height:150px;
+  @media (min-width: 900px) {
+    width: 220px;
+    height: 220px;
+  }
+  @media (min-width: 1000px) {
+    width: 220px;
+  }
+  transition: width 0.5s;
+  @media (max-width: 1300px) {
+    width: 200px
+    height: 220px;
+  }
+`;
+export const CreatorsT = styled.p`
+flex: 1 1 auto;
+font-size: 1.5rem;
+line-height: 1.5;
+margin-bottom: 1.25rem;
+`;
+export const CreatorsPHeavy = styled.p`
+font-weight: 800;
+
+`;
+
 export const WalletBox = styled.div`
   text-decoration: none;
   background-color: transparent;
@@ -674,13 +724,30 @@ function App() {
             </s.TextP>
           </CreatorContainer>
 
+          <CreatorContainer id="Creators">
+          <s.TextTitle>CREATORS</s.TextTitle>
+            <CreatorsCont>
+              <CreatorsInd>
+                <CreatorsIMG src={"/config/images/72.png"}></CreatorsIMG>
+                <CreatorsT>VagrantTea</CreatorsT>
+                <CreatorsPHeavy>Twitter</CreatorsPHeavy> @VagrantTea
+                <CreatorsPHeavy>Other Projects</CreatorsPHeavy>
+              </CreatorsInd>
+
+              <CreatorsInd>
+                <CreatorsIMG src={"/config/images/72.png"}></CreatorsIMG>
+                <CreatorsT>Frogwell</CreatorsT>
+                <CreatorsPHeavy>Twitter</CreatorsPHeavy>@Memofrog
+              </CreatorsInd>
+            </CreatorsCont>
+            <s.SpacerLarge/>
+          </CreatorContainer>
+
             <s.SecContainer id="">
               <s.socialDiv>
                 <a href={CONFIG.Instagram} target={"_blank"}>
                 <s.Icons src="/config/images/instagram.svg" alt="Instagram" />
                 </a>
-              </s.socialDiv>
-              <s.socialDiv>
                 <a href={CONFIG.MARKETPLACE_LINK} target={"_blank"}>
                 <s.Icons src="/config/images/opensea.svg" alt="Opensea" />
                 </a>
