@@ -470,7 +470,7 @@ function App() {
               <s.StyledLink href={CONFIG.Gitbook} target="_blank">
                Documentation
               </s.StyledLink>
-              <s.StyledLink href="https://instagram.com/{CONFIG.Instagram}" target="_blank">
+              <s.StyledLink href={CONFIG.Instagram} target="_blank">
                Instagram
               </s.StyledLink>
 
@@ -676,7 +676,7 @@ function App() {
 
             <s.SecContainer id="">
               <s.socialDiv>
-                <a href="https://instagram.com/{CONFIG.Instagram}" target={"_blank"}>
+                <a href={CONFIG.Instagram} target={"_blank"}>
                 <s.Icons src="/config/images/instagram.svg" alt="Instagram" />
                 </a>
               </s.socialDiv>
