@@ -9,7 +9,7 @@ export default props => {
         Story
       </a>
       <a className="menu-item" target="_blank" href="https://vagranttea.gitbook.io/chibipunks/">
-        Documentation
+        Whitepaper
       </a>
       <a className="menu-item" target="_blank" href="https://instagram.com/Chibi.punks">
         Instagram
