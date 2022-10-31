@@ -678,7 +678,7 @@ function App() {
               <s.socialDiv>
                 <a href={CONFIG.Instagram} target={"_blank"}>
                 <s.Icons src="/config/images/instagram.svg" alt="Instagram" />
-                </a>P
+                </a>
                 <a href={CONFIG.MARKETPLACE_LINK} target={"_blank"}>
                 <s.Icons src="/config/images/opensea.svg" alt="Opensea" />
                 </a>
