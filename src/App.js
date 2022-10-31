@@ -604,7 +604,7 @@ function App() {
                         getData();
                       }}
                     >
-                      CONNECT Wallet
+                      CONNECT
                       <img style={{width: 30, paddingLeft: 10 }} src={"/config/images/mm.svg"} />
                     </CTNButton>
                     {blockchain.errorMsg !== "" ? (
