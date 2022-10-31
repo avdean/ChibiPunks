@@ -13,7 +13,7 @@
   "MAX_PER_TX": 15,
   "MARKETPLACE": "Opensea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/tru-chibipunks",
-  "Instagram": "chibi.punks",
+  "Instagram": "https://Instagram.com/chibi.punks",
   "Gitbook":"https://vagranttea.gitbook.io/chibipunks/",
   "SHOW_BACKGROUND": false
 }
