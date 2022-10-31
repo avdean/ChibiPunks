@@ -468,7 +468,7 @@ function App() {
               About
             </s.StyledLink >
               <s.StyledLink href={CONFIG.Gitbook} target="_blank">
-               Documentation
+               Whitepaper
               </s.StyledLink>
               <s.StyledLink href={CONFIG.Instagram} target="_blank">
                Instagram
@@ -670,7 +670,7 @@ function App() {
             <br></br><br></br>
             The smart contract features both antibot minting and is ERC721A, making for cheaper gas fees! You can find out all of the details by checking out ChibPunks GitBook docs.             
             <br></br><br></br>
-            <StyledButton href={CONFIG.Gitbook} target={"_blank"}>Documentation</StyledButton>
+            <StyledButton href="{CONFIG.Gitbook}" target={"_blank"}>whitepaper</StyledButton>
             </s.TextP>
           </CreatorContainer>
 
