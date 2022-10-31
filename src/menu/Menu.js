@@ -8,7 +8,7 @@ export default props => {
       <a className="menu-item" href="/#story">
         Story
       </a>
-      <a className="menu-item" target="_blank" href="https://vagranttea.gitbook.io/ChibiPunks/">
+      <a className="menu-item" target="_blank" href="https://vagranttea.gitbook.io/chibipunks/">
         Documentation
       </a>
       <a className="menu-item" target="_blank" href="https://instagram.com/Chibi.punks">
