@@ -752,7 +752,7 @@ function App() {
             <br></br><br></br>
             The smart contract features both antibot minting and is ERC721A, making for cheaper gas fees! You can find out all of the details by checking out ChibPunks Whitepaper.             
             <br></br><br></br>
-            <StyledButton href={CONFIG.Gitbook} target={"_blank"}>Whitepaper</StyledButton>
+            <a href={CONFIG.Gitbook} target={"_blank"}><StyledButton>Whitepaper</StyledButton></a>
             </s.TextP>
           </CreatorContainer>
 
