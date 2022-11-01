@@ -61,7 +61,7 @@ export const CTNButton = styled.button`
   letter-spacing: 2px;
   font-weight: bold;
   color: white;
-  width: 270px;
+  width: 30vw; 
   height: 50px;
   cursor: pointer;
   box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.5);
@@ -76,7 +76,12 @@ export const CTNButton = styled.button`
     color: silver;
   }
   @media (max-width: 1300px) {
-    width: 200px;
+    width: 20vw;
+    height: 50px;
+    font-size: 0.75rem;
+  }
+  @media (max-width: 800px) {
+    width: 30vw;
     height: 50px;
     font-size: 0.75rem;
   }
@@ -308,6 +313,8 @@ export const CreatorsInd = styled.div`
 
 export const CreatorsIMG = styled.img`
   border-radius:100%;
+  margin-right:auto;
+  margin-left:auto;
   width:150px;
   height:150px;
   @media (min-width: 900px) {
@@ -337,8 +344,26 @@ font-weight: 800;
 padding-top:2vh;
 `;
 export const CreatorsText = styled.p`
-font-size: 0.8rem;
+font-family:'Syne';
+font-size: 1rem;
+line-height: 1.5;
+padding-bottom:1vh;
 `;
+export const CreatorsLink = styled.a`
+font-size: 0.8rem;
+font-family:'Syne';
+line-height: 1.5;
+font-weight:600;
+color: var(--secondary);
+text-decoration: underline;
+
+:hover {
+  transition: font-size 0.2s;
+  font-size: 1rem;
+  color: var(--secondary);
+  text-decoration: underline;
+`;
+
 
 
 export const WalletBox = styled.div`
@@ -737,15 +762,17 @@ function App() {
               <CreatorsInd>
                 <CreatorsIMG src={"/config/images/VagrantTea.png"}></CreatorsIMG>
                 <CreatorsT>VagrantTea</CreatorsT>
-                <CreatorsPHeavy>Twitter</CreatorsPHeavy> <CreatorsText><a href="https://twitter.com/vagranttea" target="_Blank">@VagrantTea</a></CreatorsText>
-                <CreatorsPHeavy>Other Projects</CreatorsPHeavy>            
+                <CreatorsText>Part artist, part developer, VagrantTea is the main creator of ChibiPunks, along with a number of other collections found on other EVM chains. </CreatorsText>
+                <CreatorsPHeavy>Twitter</CreatorsPHeavy> <CreatorsLink href="https://twitter.com/vagranttea" target="_Blank">@VagrantTea</CreatorsLink>
+                <CreatorsPHeavy>Gitbook</CreatorsPHeavy> <CreatorsLink href="https://vagranttea.gitbook.io/base/" target="_Blank">VagranTea's Gitbook</CreatorsLink>
               </CreatorsInd>
 
               <CreatorsInd>
                 <CreatorsIMG src={"/config/images/Frogwell.jpg"}></CreatorsIMG>
                 <CreatorsT>Frogwell</CreatorsT>
-                <CreatorsPHeavy>Twitter</CreatorsPHeavy><CreatorsText><a href="https://twitter.com/Memofrogwell" target="_Blank">@Memofrog</a></CreatorsText>
-                <CreatorsPHeavy>Website</CreatorsPHeavy><a href="https://twitter.com/Memofrogwell" target="_Blank">@Memofrog</a>
+                <CreatorsText>A talented artist with roots in traditional illustration and an anime flair, their work has a distinctive style and palette that makes them instantly recognizable.</CreatorsText>
+                <CreatorsPHeavy>Twitter</CreatorsPHeavy><CreatorsLink href="https://twitter.com/Memofrogwell" target="_Blank">@Memofrog</CreatorsLink>
+                <CreatorsPHeavy>Website</CreatorsPHeavy><CreatorsLink href="https://withkoji.com/@Frogwell" target="_Blank">https://withkoji.com/@Frogwell</CreatorsLink>
               </CreatorsInd>
             </CreatorsCont>
             <s.SpacerLarge/>
