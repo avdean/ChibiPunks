@@ -728,7 +728,7 @@ function App() {
             )}
             <s.SpacerMedium />
 <CreatorsLink
-href="https://etherscan.io/address/0xb75da815618431bcc524a944c101759624a773a0" target="_blank>"0xb75da...</CreatorsLink>
+href="https://etherscan.io/address/0xb75da815618431bcc524a944c101759624a773a0" target="_blank">0xb75da...</CreatorsLink>
             </s.Container>
           <s.SpacerLarge />
         </ResponsiveWrapper>
