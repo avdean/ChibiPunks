@@ -325,14 +325,21 @@ export const CreatorsIMG = styled.img`
 `;
 export const CreatorsT = styled.p`
 flex: 1 1 auto;
+padding-top:2vh;
+margin-right:auto;
+margin-left:auto;
 font-size: 1.5rem;
 line-height: 1.5;
 margin-bottom: 1.25rem;
 `;
 export const CreatorsPHeavy = styled.p`
 font-weight: 800;
-
+padding-top:2vh;
 `;
+export const CreatorsText = styled.p`
+font-size: 0.8rem;
+`;
+
 
 export const WalletBox = styled.div`
   text-decoration: none;
@@ -728,16 +735,17 @@ function App() {
           <s.TextTitle>CREATORS</s.TextTitle>
             <CreatorsCont>
               <CreatorsInd>
-                <CreatorsIMG src={"/config/images/72.png"}></CreatorsIMG>
+                <CreatorsIMG src={"/config/images/VagrantTea.png"}></CreatorsIMG>
                 <CreatorsT>VagrantTea</CreatorsT>
-                <CreatorsPHeavy>Twitter</CreatorsPHeavy> @VagrantTea
-                <CreatorsPHeavy>Other Projects</CreatorsPHeavy>
+                <CreatorsPHeavy>Twitter</CreatorsPHeavy> <CreatorsText><a href="https://twitter.com/vagranttea" target="_Blank">@VagrantTea</a></CreatorsText>
+                <CreatorsPHeavy>Other Projects</CreatorsPHeavy>            
               </CreatorsInd>
 
               <CreatorsInd>
-                <CreatorsIMG src={"/config/images/72.png"}></CreatorsIMG>
+                <CreatorsIMG src={"/config/images/Frogwell.jpg"}></CreatorsIMG>
                 <CreatorsT>Frogwell</CreatorsT>
-                <CreatorsPHeavy>Twitter</CreatorsPHeavy>@Memofrog
+                <CreatorsPHeavy>Twitter</CreatorsPHeavy><CreatorsText><a href="https://twitter.com/Memofrogwell" target="_Blank">@Memofrog</a></CreatorsText>
+                <CreatorsPHeavy>Website</CreatorsPHeavy><a href="https://twitter.com/Memofrogwell" target="_Blank">@Memofrog</a>
               </CreatorsInd>
             </CreatorsCont>
             <s.SpacerLarge/>
