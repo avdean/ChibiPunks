@@ -735,7 +735,7 @@ function App() {
 
     {/* Story / Lore */}
         <LoreContainer id="story">
-          <s.TextTitle>STORY</s.TextTitle>
+          <s.TextTitle>LORE</s.TextTitle>
             <s.SpacerLarge/>
             <s.TextP>
           It began with four unlikely friends, at the turn of the second millennium, outcast for not fitting the roles society cast them. They would get up to their own version of mischief, loitering outside their local record store, etc. But over time their group grew, as they welcomed more and more of the outcast and different. 
@@ -745,7 +745,7 @@ function App() {
           </LoreContainer>
 
         <CreatorContainer id="about">
-          <s.TextTitle>WORDS FROM THE CREATORS</s.TextTitle>
+          <s.TextTitle>ABOUT</s.TextTitle>
             <s.SpacerLarge/>
             <s.TextP>
             ChibiPunks is a collection of adorable PFP punks, and a badge of support for those both different or misunderstood. The majority of the assets, development and smart contract was built by VagrantTea, with gracious contributions from the ever talented Frogwell.
