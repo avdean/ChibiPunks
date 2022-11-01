@@ -788,6 +788,9 @@ href="https://etherscan.io/address/0xb75da815618431bcc524a944c101759624a773a0" t
                 <a href={CONFIG.MARKETPLACE_LINK} target={"_blank"}>
                 <s.Icons src="/config/images/opensea.svg" alt="Opensea" />
                 </a>
+                <a href={CONFIG.SCAN_LINK} target={"_blank"}>
+                <s.Icons src="/config/images/etherscan.png" alt="Opensea" />
+                </a>
               </s.socialDiv>
             <s.SpacerLarge/>
               <s.TextP>
