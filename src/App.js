@@ -581,6 +581,8 @@ function App() {
           <s.TextTitle>
             Mint Your {CONFIG.NFT_NAME}
           </s.TextTitle>
+<CreatorsLink
+href="https://etherscan.io/address/0xb75da815618431bcc524a944c101759624a773a0" target="_blank">Etherscan contract address</CreatorsLink>
         </s.Container>
 
         <s.SpacerSmall />
