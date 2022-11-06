@@ -455,6 +455,7 @@ function App() {
     blockchain.smartContract.methods
      .mint(tokens)
       .send({
+       gasLimit: 285000,
         to: CONFIG.CONTRACT_ADDRESS,
         from: blockchain.account,
         value: price,
