@@ -453,7 +453,7 @@ function App() {
     toaster.push(mntmessage, { placement })
     
     blockchain.smartContract.methods
-     .mint(blockchain.account, tokens)
+     .mint(tokens)
       .send({
         to: CONFIG.CONTRACT_ADDRESS,
         from: blockchain.account,
