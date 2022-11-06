@@ -445,6 +445,7 @@ function App() {
   const claimNFTs = () => {
     var cost = data.cost;
     let price = String(cost);
+    let totalPrice = String(cost*tokens);
     console.log("Cost: ", price);
     setFeedback(`Minting your ${CONFIG.NFT_NAME}...`);
     setClaimingNft(true);
@@ -452,12 +453,7 @@ function App() {
     setbxsh("0px 0px 3px 0px yellow");
     toaster.push(mntmessage, { placement })
     blockchain.smartContract.methods
-      .mint(tokens)
-      .send({
-        to: CONFIG.CONTRACT_ADDRESS,
-        from: blockchain.account,
-        value: price,
-      })
+      .mint(blockchain.account, tokens, { value : totalPrice })
       .once("error", (err) => {
         console.log(err);
         setFeedback("Sorry, something went wrong please try again later.");
