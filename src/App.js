@@ -622,7 +622,7 @@ function App() {
                 </s.TextSub>
                 <s.SpacerSmall />
                 <s.TextTotal style={{background: "white" , borderRadius: 5, padding: 8, color: "black"}}>
-                      Presale Price&emsp;&emsp;&emsp;&emsp;&emsp;{CONFIG.DISPLAY_COST}{" "}{CONFIG.NETWORK.SYMBOL}
+                      Price&emsp;&emsp;&emsp;&emsp;&emsp;{CONFIG.DISPLAY_COST}{" "}{CONFIG.NETWORK.SYMBOL}
                     </s.TextTotal>
                 <s.SpacerMedium/>
                 {blockchain.account === "" ||
