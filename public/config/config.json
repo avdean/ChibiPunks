@@ -9,7 +9,7 @@
   "NFT_NAME": "ChibiPunk",
   "SYMBOL": "CBPKS",
   "MAX_SUPPLY": 9999,
-  "DISPLAY_COST": 0.005,
+  "DISPLAY_COST": 0.015,
   "MAX_PER_TX": 5,
   "MARKETPLACE": "Opensea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/tru-chibipunks",
